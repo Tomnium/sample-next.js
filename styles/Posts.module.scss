@@ -1,0 +1,13 @@
+.post {
+
+  &:not(:first-child) {
+    margin-top: 3px;
+  }
+
+  &__link {
+    color:dodgerblue;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

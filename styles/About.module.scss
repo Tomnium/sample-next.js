@@ -1,0 +1,7 @@
+.about {
+  &__paragraph {
+    &:not(:first-child) {
+      margin-top: 10px;
+    }
+  }
+}

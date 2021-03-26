@@ -1,0 +1,7 @@
+.postPage {
+  &__body {
+    &:not(:first-child) {
+      margin-top: 7px;
+    }
+  }
+}

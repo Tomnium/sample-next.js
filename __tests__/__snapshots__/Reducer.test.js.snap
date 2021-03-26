@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Redux testing sets posts data and renders them 1`] = `
+<DocumentFragment>
+  <div
+    class="undefined"
+  >
+    <div>
+      <nav>
+        <a
+          href="/"
+        >
+          Main
+        </a>
+        <a
+          href="/posts"
+        >
+          Posts
+        </a>
+        <a
+          href="/about"
+        >
+          About
+        </a>
+      </nav>
+    </div>
+  </div>
+  <main>
+    <div>
+      <h1
+        class="sas"
+      >
+        Posts
+      </h1>
+      <div>
+        <a
+          href="/posts/1"
+        >
+          Title
+        </a>
+      </div>
+      <div>
+        <a
+          href="/posts/2"
+        >
+          Title
+        </a>
+      </div>
+    </div>
+  </main>
+</DocumentFragment>
+`;

@@ -1,0 +1,31 @@
+.mainLayout {
+  &__nav {
+    height:50px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 20;
+    background-color: white;
+    border-bottom:1px solid black;
+  }
+
+  &__main {
+    padding-top: 60px;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+
+  &__link {
+    font-size:20px;
+    font-weight: 500;
+    &:not(:first-child) {
+      margin-left: 40px;
+    }
+  }
+}
